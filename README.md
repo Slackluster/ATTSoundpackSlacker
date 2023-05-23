@@ -1,5 +1,5 @@
 # AllTheThings Soundpack: Pokémon
-This AddOn provides a soundpack for All The Things and changes the sounds for:
+This AddOn provides a soundpack for All The Things and changes:
 
 - Fanfare sounds when collecting new things;
 - Complete sound when finishing a category of things;

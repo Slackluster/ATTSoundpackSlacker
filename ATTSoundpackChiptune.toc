@@ -8,4 +8,4 @@
 
 ## Dependencies: AllTheThings
 
-AllTheThings_Soundpack_Pokemon.lua
+ATTSoundpackChiptune.lua

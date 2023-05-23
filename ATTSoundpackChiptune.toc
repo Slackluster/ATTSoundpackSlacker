@@ -2,7 +2,7 @@
 ## Title: ATT Soundpack: Chiptune
 ## Author: Sluimerstand
 ## IconTexture: Interface\AddOns\ATTSoundpackChiptune\assets\icon.blp
-## Version: v10.1.0-001
+## Version: v10.1.0-002
 ## X-Curse-Project-ID: 864945
 ## X-Wago-ID: EGPXXjG1
 

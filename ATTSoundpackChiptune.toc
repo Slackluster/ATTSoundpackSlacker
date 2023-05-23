@@ -1,7 +1,7 @@
 ## Interface: 100100
-## Title: AllTheThings Soundpack: Pokémon
+## Title: ATT Soundpack: Chiptune
 ## Author: Sluimerstand
-## IconTexture: Interface\AddOns\AllTheThings_Soundpack_Pokemon\assets\icon.blp
+## IconTexture: Interface\AddOns\ATTSoundpackChiptune\assets\icon.blp
 ## Version: v10.1.0-001
 ## X-Curse-Project-ID: 864945
 ## X-Wago-ID: EGPXXjG1

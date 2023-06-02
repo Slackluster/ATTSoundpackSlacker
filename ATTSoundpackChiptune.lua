@@ -10,20 +10,50 @@ local function removeSounds()
     AllTheThings.ClearSounds("Fanfare")
     AllTheThings.ClearSounds("RareFind")
     AllTheThings.ClearSounds("Remove")
-    --AllTheThings.ClearSounds("Report")
+    AllTheThings.ClearSounds("Report")
 end
 
 -- Add custom ATT sounds
 local function addSounds()
-    AllTheThings.AddSound("Complete", "Interface\\AddOns\\ATTSoundpackChiptune\\assets\\complete1.ogg")
-    AllTheThings.AddSound("Fanfare", "Interface\\AddOns\\ATTSoundpackChiptune\\assets\\fanfare1.ogg")
-    AllTheThings.AddSound("Fanfare", "Interface\\AddOns\\ATTSoundpackChiptune\\assets\\fanfare2.ogg")
-    AllTheThings.AddSound("Fanfare", "Interface\\AddOns\\ATTSoundpackChiptune\\assets\\fanfare3.ogg")
-    AllTheThings.AddSound("Fanfare", "Interface\\AddOns\\ATTSoundpackChiptune\\assets\\fanfare4.ogg")
-    AllTheThings.AddSound("Fanfare", "Interface\\AddOns\\ATTSoundpackChiptune\\assets\\fanfare5.ogg")
-    AllTheThings.AddSound("Fanfare", "Interface\\AddOns\\ATTSoundpackChiptune\\assets\\fanfare6.ogg")
-    AllTheThings.AddSound("RareFind", "Interface\\AddOns\\ATTSoundpackChiptune\\assets\\rarefind1.ogg")
-    AllTheThings.AddSound("Remove", "Interface\\AddOns\\ATTSoundpackChiptune\\assets\\remove1.ogg")
+    -- Add the "Congatulations, your Pokémon has evolved!" sounds to the "Complete" sounds
+    AllTheThings.AddSound("Complete", "Interface\\AddOns\\ATTSoundpackChiptune\\assets\\evo_gen1-3.ogg")
+    AllTheThings.AddSound("Complete", "Interface\\AddOns\\ATTSoundpackChiptune\\assets\\evo_gen2-1.ogg")
+    AllTheThings.AddSound("Complete", "Interface\\AddOns\\ATTSoundpackChiptune\\assets\\evo_gen2-2.ogg")
+    AllTheThings.AddSound("Complete", "Interface\\AddOns\\ATTSoundpackChiptune\\assets\\evo_gen3-1.ogg")
+    AllTheThings.AddSound("Complete", "Interface\\AddOns\\ATTSoundpackChiptune\\assets\\evo_gen3-2.ogg")
+    AllTheThings.AddSound("Complete", "Interface\\AddOns\\ATTSoundpackChiptune\\assets\\evo_gen4-1.ogg")
+    AllTheThings.AddSound("Complete", "Interface\\AddOns\\ATTSoundpackChiptune\\assets\\evo_gen4-2.ogg")
+    AllTheThings.AddSound("Complete", "Interface\\AddOns\\ATTSoundpackChiptune\\assets\\evo_gen5-1.ogg")
+    AllTheThings.AddSound("Complete", "Interface\\AddOns\\ATTSoundpackChiptune\\assets\\evo_gen6-1.ogg")
+    AllTheThings.AddSound("Complete", "Interface\\AddOns\\ATTSoundpackChiptune\\assets\\evo_gen7-1.ogg")
+
+    -- Add the "Badge obtained!" sounds to the "Fanfare" sounds
+    AllTheThings.AddSound("Fanfare", "Interface\\AddOns\\ATTSoundpackChiptune\\assets\\badge_gen1-3.ogg")
+    AllTheThings.AddSound("Fanfare", "Interface\\AddOns\\ATTSoundpackChiptune\\assets\\badge_gen2-1.ogg")
+    AllTheThings.AddSound("Fanfare", "Interface\\AddOns\\ATTSoundpackChiptune\\assets\\badge_gen2-2.ogg")
+    AllTheThings.AddSound("Fanfare", "Interface\\AddOns\\ATTSoundpackChiptune\\assets\\badge_gen3-1.ogg")
+    AllTheThings.AddSound("Fanfare", "Interface\\AddOns\\ATTSoundpackChiptune\\assets\\badge_gen3-2.ogg")
+    AllTheThings.AddSound("Fanfare", "Interface\\AddOns\\ATTSoundpackChiptune\\assets\\badge_gen4-1.ogg")
+    AllTheThings.AddSound("Fanfare", "Interface\\AddOns\\ATTSoundpackChiptune\\assets\\badge_gen4-2.ogg")
+    AllTheThings.AddSound("Fanfare", "Interface\\AddOns\\ATTSoundpackChiptune\\assets\\badge_gen5-1.ogg")
+    AllTheThings.AddSound("Fanfare", "Interface\\AddOns\\ATTSoundpackChiptune\\assets\\badge_gen6-1.ogg")
+
+    -- Add the "TM obtained!" sounds to the "RareFind" sounds
+    AllTheThings.AddSound("RareFind", "Interface\\AddOns\\ATTSoundpackChiptune\\assets\\tm_gen2-1.ogg")
+    AllTheThings.AddSound("RareFind", "Interface\\AddOns\\ATTSoundpackChiptune\\assets\\tm_gen2-2.ogg")
+    AllTheThings.AddSound("RareFind", "Interface\\AddOns\\ATTSoundpackChiptune\\assets\\tm_gen3-1.ogg")
+    AllTheThings.AddSound("RareFind", "Interface\\AddOns\\ATTSoundpackChiptune\\assets\\tm_gen3-2.ogg")
+    AllTheThings.AddSound("RareFind", "Interface\\AddOns\\ATTSoundpackChiptune\\assets\\tm_gen4-1.ogg")
+    AllTheThings.AddSound("RareFind", "Interface\\AddOns\\ATTSoundpackChiptune\\assets\\tm_gen4-2.ogg")
+    AllTheThings.AddSound("RareFind", "Interface\\AddOns\\ATTSoundpackChiptune\\assets\\tm_gen5-1.ogg")
+    AllTheThings.AddSound("RareFind", "Interface\\AddOns\\ATTSoundpackChiptune\\assets\\tm_gen6-1.ogg")
+    AllTheThings.AddSound("RareFind", "Interface\\AddOns\\ATTSoundpackChiptune\\assets\\tm_gen7-1.ogg")
+
+    -- Add the "Game Corner lose" sound to the "Remove" sounds
+    AllTheThings.AddSound("Remove", "Interface\\AddOns\\ATTSoundpackChiptune\\assets\\gamecorner-lose.ogg")
+
+    -- Add the "Damn son, where'd you find this?" sound to the "Report" sounds
+    AllTheThings.AddSound("Report", "Interface\\AddOns\\ATTSoundpackChiptune\\assets\\damnson.ogg")
 end
 
 api:SetScript("OnEvent", function(self, event, arg1, arg2, ...)

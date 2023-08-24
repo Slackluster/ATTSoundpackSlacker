@@ -6,8 +6,6 @@ This AddOn provides a soundpack for All The Things and changes:
 - Remove sound when a thing is removed from the collection;
 - RareFind sound when a treasure or rare is detected.
 
-These sounds are themed after the handheld Pokémon games and contain sounds from a few different versions of these games.
+These sounds are themed after the handheld Pokémon games and contain sounds from a few different versions of these games (with the exception of the reporting and death sounds).
 
-The purpose of this AddOn is to both serve as an actual soundpack, as well as an example for others to create their own soundpacks for All The Things.
-
-This AddOn has no affiliation with the dependent AddOn, All The Things.
+A proper example of how to create a soundpack now exists [here](https://github.com/DFortun81/ATT-SoundPack-Template).

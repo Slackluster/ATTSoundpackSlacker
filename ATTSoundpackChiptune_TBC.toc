@@ -1,4 +1,4 @@
-## Interface: 100105
+## Interface: 20504
 ## Title: ATT Soundpack: Chiptune
 ## Author: Sluimerstand
 ## IconTexture: Interface\AddOns\AllTheThings\assets\SoundPackIcon.blp

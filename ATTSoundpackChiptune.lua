@@ -1,53 +1,42 @@
--- To register API events
-local api = CreateFrame("Frame")
-
--- API events
-api:RegisterEvent("ADDON_LOADED")
-
--- Remove original ATT sounds
-local function removeSounds()
-    AllTheThings.ClearSounds("Complete")
-    AllTheThings.ClearSounds("Fanfare")
-    AllTheThings.ClearSounds("RareFind")
-    AllTheThings.ClearSounds("Remove")
-    AllTheThings.ClearSounds("Report")
+local appName = ...
+function asset(name)
+	return "Interface\\AddOns\\" .. appName .. "\\assets\\" .. name
 end
 
--- Add custom ATT sounds
-local function addSounds()
-    -- Add the "Congatulations, your Pokémon has evolved!" sounds to the "Complete" sounds
-    AllTheThings.AddSound("Complete", "Interface\\AddOns\\ATTSoundpackChiptune\\assets\\evo_gen2.ogg")
-    AllTheThings.AddSound("Complete", "Interface\\AddOns\\ATTSoundpackChiptune\\assets\\evo_gen3.ogg")
-    AllTheThings.AddSound("Complete", "Interface\\AddOns\\ATTSoundpackChiptune\\assets\\evo_gen4.ogg")
-    AllTheThings.AddSound("Complete", "Interface\\AddOns\\ATTSoundpackChiptune\\assets\\evo_gen5.ogg")
-    AllTheThings.AddSound("Complete", "Interface\\AddOns\\ATTSoundpackChiptune\\assets\\evo_gen6.ogg")
+local api = AllTheThings.Audio
 
-    -- Add the "Badge obtained!" sounds to the "Fanfare" sounds
-    AllTheThings.AddSound("Fanfare", "Interface\\AddOns\\ATTSoundpackChiptune\\assets\\badge_gen2.ogg")
-    AllTheThings.AddSound("Fanfare", "Interface\\AddOns\\ATTSoundpackChiptune\\assets\\badge_gen3.ogg")
-    AllTheThings.AddSound("Fanfare", "Interface\\AddOns\\ATTSoundpackChiptune\\assets\\badge_gen4.ogg")
-    AllTheThings.AddSound("Fanfare", "Interface\\AddOns\\ATTSoundpackChiptune\\assets\\badge_gen5.ogg")
-    AllTheThings.AddSound("Fanfare", "Interface\\AddOns\\ATTSoundpackChiptune\\assets\\badge_gen6.ogg")
+api:CreateSoundPack("Pokémon (" .. appName .. ")", {
+	COMPLETE = {
+		asset("evo_gen2.ogg"),
+        asset("evo_gen3.ogg"),
+        asset("evo_gen4.ogg"),
+        asset("evo_gen5.ogg"),
+        asset("evo_gen6.ogg"),
+	},
+	DEATH = {
+		asset("death.ogg"),
+	},
+	FANFARE = {
+		asset("badge_gen2.ogg"),
+        asset("badge_gen3.ogg"),
+        asset("badge_gen4.ogg"),
+        asset("badge_gen5.ogg"),
+        asset("badge_gen6.ogg"),
+	},
+	RAREFIND = {
+		asset("tm_gen2.ogg"),
+        asset("tm_gen3.ogg"),
+        asset("tm_gen4.ogg"),
+        asset("tm_gen5.ogg"),
+        asset("tm_gen6.ogg"),
+	},
+	REMOVE = {
+		asset("gamecorner-lose.ogg"),
+	},
+	REPORT = {
+		asset("damnson.ogg"),
+	},
+})
 
-    -- Add the "TM obtained!" sounds to the "RareFind" sounds
-    AllTheThings.AddSound("RareFind", "Interface\\AddOns\\ATTSoundpackChiptune\\assets\\tm_gen2.ogg")
-    AllTheThings.AddSound("RareFind", "Interface\\AddOns\\ATTSoundpackChiptune\\assets\\tm_gen3.ogg")
-    AllTheThings.AddSound("RareFind", "Interface\\AddOns\\ATTSoundpackChiptune\\assets\\tm_gen4.ogg")
-    AllTheThings.AddSound("RareFind", "Interface\\AddOns\\ATTSoundpackChiptune\\assets\\tm_gen5.ogg")
-    AllTheThings.AddSound("RareFind", "Interface\\AddOns\\ATTSoundpackChiptune\\assets\\tm_gen6.ogg")
-
-    -- Add the "Game Corner lose" sound to the "Remove" sounds
-    AllTheThings.AddSound("Remove", "Interface\\AddOns\\ATTSoundpackChiptune\\assets\\gamecorner-lose.ogg")
-
-    -- Add the "Damn son, where'd you find this?" sound to the "Report" sounds
-    AllTheThings.AddSound("Report", "Interface\\AddOns\\ATTSoundpackChiptune\\assets\\damnson.ogg")
-end
-
-api:SetScript("OnEvent", function(self, event, arg1, arg2, ...)
-	-- When the AddOn is fully loaded, actually run the components
-	if event == "ADDON_LOADED" and arg1 == "ATTSoundpackChiptune" then
-        -- We don't need to check if ATT is also loaded, because it is a dependency for this AddOn
-        removeSounds()
-        addSounds()
-    end
-end)
+-- Activate the soundpack, placeholder until I add the option to ATT to select a soundpack
+AllTheThings.Audio:ActivateSoundPack("Pokémon (" .. appName .. ")")

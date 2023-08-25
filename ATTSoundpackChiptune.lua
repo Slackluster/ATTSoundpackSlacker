@@ -37,6 +37,3 @@ api:CreateSoundPack("Pokémon (" .. appName .. ")", {
 		asset("damnson.ogg"),
 	},
 })
-
--- Activate the soundpack, placeholder until I add the option to ATT to select a soundpack
-AllTheThings.Audio:ActivateSoundPack("Pokémon (" .. appName .. ")")

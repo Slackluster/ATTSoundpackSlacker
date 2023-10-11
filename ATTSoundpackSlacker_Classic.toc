@@ -1,5 +1,5 @@
-## Interface: 20504
-## Title: ATT Soundpack: Chiptune
+## Interface: 11403
+## Title: ATT Soundpack: Slacker
 ## Author: Sluimerstand
 ## IconTexture: Interface\AddOns\AllTheThings\assets\SoundPackIcon.blp
 ## Version: @project-version@
@@ -8,4 +8,4 @@
 
 ## Dependencies: AllTheThings
 
-ATTSoundpackChiptune.lua
+ATTSoundpackSlacker.lua

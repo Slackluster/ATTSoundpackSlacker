@@ -37,3 +37,27 @@ api:CreateSoundPack("Pokémon (" .. appName .. ")", {
 		asset("damnson.ogg"),
 	},
 })
+
+api:CreateSoundPack("Kazoo (" .. appName .. ")", {
+	COMPLETE = {
+		asset("kazooc1.ogg"),
+        asset("kazooc2.ogg"),
+	},
+	DEATH = {
+		asset("kazoo.ogg"),
+	},
+	FANFARE = {
+		asset("kazoof1.ogg"),
+        asset("kazoof2.ogg"),
+        asset("kazoof3.ogg"),
+	},
+	RAREFIND = {
+		asset("specialfriend.ogg"),
+	},
+	REMOVE = {
+		asset("ouch.ogg"),
+	},
+	REPORT = {
+		asset("waitaminute.ogg"),
+	},
+})

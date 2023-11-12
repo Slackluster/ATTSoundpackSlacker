@@ -24,11 +24,16 @@ api:CreateSoundPack("Pokémon (" .. appName .. ")", {
 		asset("badge_gen6.ogg"),
 	},
 	RAREFIND = {
-		asset("tm_gen2.ogg"),
-		asset("tm_gen3.ogg"),
-		asset("tm_gen4.ogg"),
-		asset("tm_gen5.ogg"),
-		asset("tm_gen6.ogg"),
+		asset("evo_gen2.ogg"),
+		asset("evo_gen3.ogg"),
+		asset("evo_gen4.ogg"),
+		asset("evo_gen5.ogg"),
+		asset("evo_gen6.ogg"),
+		--asset("tm_gen2.ogg"),
+		--asset("tm_gen3.ogg"),
+		--asset("tm_gen4.ogg"),
+		--asset("tm_gen5.ogg"),
+		--asset("tm_gen6.ogg"),
 	},
 	REMOVE = {
 		asset("gamecorner-lose.ogg"),
@@ -52,7 +57,9 @@ api:CreateSoundPack("Kazoo (" .. appName .. ")", {
         asset("kazoof3.ogg"),
 	},
 	RAREFIND = {
-		asset("specialfriend.ogg"),
+		asset("kazooc1.ogg"),
+		asset("kazooc2.ogg"),
+		--asset("specialfriend.ogg"),
 	},
 	REMOVE = {
 		asset("ouch.ogg"),

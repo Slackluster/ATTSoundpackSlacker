@@ -23,6 +23,13 @@ api:CreateSoundPack("Pokémon (" .. appName .. ")", {
 		asset("badge_gen5.ogg"),
 		asset("badge_gen6.ogg"),
 	},
+	MOUNTFANFARE = {
+		asset("evo_gen2.ogg"),
+		asset("evo_gen3.ogg"),
+		asset("evo_gen4.ogg"),
+		asset("evo_gen5.ogg"),
+		asset("evo_gen6.ogg"),
+	},
 	RAREFIND = {
 		asset("tm_gen2.ogg"),
 		asset("tm_gen3.ogg"),
@@ -50,6 +57,10 @@ api:CreateSoundPack("Kazoo (" .. appName .. ")", {
 		asset("kazoof1.ogg"),
         asset("kazoof2.ogg"),
         asset("kazoof3.ogg"),
+	},
+	MOUNTFANFARE = {
+		asset("kazooc1.ogg"),
+		asset("kazooc2.ogg"),
 	},
 	RAREFIND = {
 		asset("specialfriend.ogg"),

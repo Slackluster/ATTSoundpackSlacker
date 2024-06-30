@@ -1,0 +1,11 @@
+## Interface: 40400
+## Title: ATT Soundpack: Slacker
+## Author: Sluimerstand
+## IconTexture: Interface\AddOns\AllTheThings\assets\SoundPackIcon.blp
+## Version: @project-version@
+## X-Curse-Project-ID: 864945
+## X-Wago-ID: EGPXXjG1
+
+## Dependencies: AllTheThings
+
+ATTSoundpackSlacker.lua

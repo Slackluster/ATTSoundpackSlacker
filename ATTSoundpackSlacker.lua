@@ -72,3 +72,60 @@ api:CreateSoundPack("Kazoo (" .. appName .. ")", {
 		asset("waitaminute.ogg"),
 	},
 })
+
+api:CreateSoundPack("Crash Bandicoot (" .. appName .. ")", {
+	COMPLETE = {
+		asset("CB_Main Menu.ogg"),
+	},
+	DEATH = {
+		asset("CB_Death.ogg"),
+		asset("CB_Death2.ogg"),
+	},
+	FANFARE = {
+		asset("CB_AkuAku.ogg"),
+        asset("CB_CrateBreak.ogg"),
+        asset("CB_LvlUp.ogg"),
+		asset("CB_Wumpa.ogg"),
+	},
+	MOUNTFANFARE = {
+		asset("CB_Crystal.ogg"),
+	},
+	RAREFIND = {
+		asset("CB_Shine.ogg"),
+	},
+	REMOVE = {
+		asset("CB_AkuAkuDeath.ogg"),
+	},
+	REPORT = {
+		asset("CB_UhOh.ogg"),
+	},
+})		
+
+api:CreateSoundPack("Zelda (" .. appName .. ")", {
+	COMPLETE = {
+		asset("TP_Armogohma Clear.ogg"),
+		asset("TP_Fanfare_Goal.ogg"),
+		asset("TP_Seize Fanfare.ogg"),
+	},
+	DEATH = {
+		asset("BoTW_Game Over.ogg"),
+	},
+	FANFARE = {
+		asset("TP_Fanfare_CatchFish.ogg"),
+        asset("TP_Fanfare_FirstRupee.ogg"),
+        asset("TP_Fanfare_SmallItem.ogg"),
+		asset("TP_Fanfare_SmallItem2.ogg"),
+	},
+	MOUNTFANFARE = {
+		asset("TP_Fanfare_HeartContainer.ogg"),
+	},
+	RAREFIND = {
+		asset("TP_Fanfare_GoldenBug.ogg"),
+	},
+	REMOVE = {
+		asset("TP_Fanfare_CatchNonFish.ogg"),
+	},
+	REPORT = {
+		asset("OoT_Hey listen.ogg"),
+	},
+})

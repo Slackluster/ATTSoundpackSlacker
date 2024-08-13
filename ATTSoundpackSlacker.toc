@@ -1,4 +1,4 @@
-## Interface: 11503, 20504, 30403, 40400, 110000
+## Interface: 11503, 20504, 30403, 40400, 110002
 ## Title: ATT Soundpack: Slacker
 ## Author: Sluimerstand
 ## IconTexture: Interface\AddOns\AllTheThings\assets\SoundPackIcon.blp

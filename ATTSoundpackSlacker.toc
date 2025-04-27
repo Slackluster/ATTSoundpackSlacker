@@ -7,6 +7,7 @@
 ## X-Wago-ID: EGPXXjG1
 
 ## Dependencies: AllTheThings
+## Group: AllTheThings
 
 ## Category-enUS: Media
 ## Category-deDE: Medien

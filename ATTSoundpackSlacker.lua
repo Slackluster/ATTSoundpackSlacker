@@ -5,7 +5,7 @@ end
 
 local api = AllTheThings.Audio
 
-api:CreateSoundPack("Pokémon (" .. appName .. ")", {
+api:CreateSoundPack("Pokémon (Slacker)", {
 	COMPLETE = {
 		asset("evo_gen2.ogg"),
 		asset("evo_gen3.ogg"),
@@ -45,7 +45,7 @@ api:CreateSoundPack("Pokémon (" .. appName .. ")", {
 	},
 })
 
-api:CreateSoundPack("Kazoo (" .. appName .. ")", {
+api:CreateSoundPack("Kazoo (Slacker)", {
 	COMPLETE = {
 		asset("kazooc1.ogg"),
 		asset("kazooc2.ogg"),
@@ -63,7 +63,8 @@ api:CreateSoundPack("Kazoo (" .. appName .. ")", {
 		asset("kazooc2.ogg"),
 	},
 	RAREFIND = {
-		asset("specialfriend.ogg"),
+		asset("kazoomegalovania.ogg"),
+		asset("kazoocountdown.ogg"),
 	},
 	REMOVE = {
 		asset("ouch.ogg"),
@@ -73,7 +74,7 @@ api:CreateSoundPack("Kazoo (" .. appName .. ")", {
 	},
 })
 
-api:CreateSoundPack("Crash Bandicoot (" .. appName .. ")", {
+api:CreateSoundPack("Crash Bandicoot (Slacker)", {
 	COMPLETE = {
 		asset("CB_Main Menu.ogg"),
 	},
@@ -101,7 +102,7 @@ api:CreateSoundPack("Crash Bandicoot (" .. appName .. ")", {
 	},
 })		
 
-api:CreateSoundPack("Zelda (" .. appName .. ")", {
+api:CreateSoundPack("Zelda (Slacker)", {
 	COMPLETE = {
 		asset("TP_Armogohma Clear.ogg"),
 		asset("TP_Fanfare_Goal.ogg"),

@@ -11,5 +11,7 @@ This AddOn provides multiple soundpacks for All The Things and changes:
 Soundpacks included:
 - Pokémon
 - Kazoo
+- Crash Bandicoot
+- Zelda
 
 A proper example of how to create a soundpack now exists [here](https://github.com/DFortun81/ATT-SoundPack-Template).

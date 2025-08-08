@@ -55,8 +55,8 @@ api:CreateSoundPack("Kazoo (Slacker)", {
 	},
 	FANFARE = {
 		asset("kazoof1.ogg"),
-        asset("kazoof2.ogg"),
-        asset("kazoof3.ogg"),
+		asset("kazoof2.ogg"),
+		asset("kazoof3.ogg"),
 	},
 	MOUNTFANFARE = {
 		asset("kazooc1.ogg"),
@@ -84,8 +84,8 @@ api:CreateSoundPack("Crash Bandicoot (Slacker)", {
 	},
 	FANFARE = {
 		asset("CB_AkuAku.ogg"),
-        asset("CB_CrateBreak.ogg"),
-        asset("CB_LvlUp.ogg"),
+		asset("CB_CrateBreak.ogg"),
+		asset("CB_LvlUp.ogg"),
 		asset("CB_Wumpa.ogg"),
 	},
 	MOUNTFANFARE = {
@@ -100,7 +100,7 @@ api:CreateSoundPack("Crash Bandicoot (Slacker)", {
 	REPORT = {
 		asset("CB_UhOh.ogg"),
 	},
-})		
+})
 
 api:CreateSoundPack("Zelda (Slacker)", {
 	COMPLETE = {
@@ -113,8 +113,8 @@ api:CreateSoundPack("Zelda (Slacker)", {
 	},
 	FANFARE = {
 		asset("TP_Fanfare_CatchFish.ogg"),
-        asset("TP_Fanfare_FirstRupee.ogg"),
-        asset("TP_Fanfare_SmallItem.ogg"),
+		asset("TP_Fanfare_FirstRupee.ogg"),
+		asset("TP_Fanfare_SmallItem.ogg"),
 		asset("TP_Fanfare_SmallItem2.ogg"),
 	},
 	MOUNTFANFARE = {

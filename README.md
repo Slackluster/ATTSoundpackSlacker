@@ -1,5 +1,5 @@
 # ATT Soundpack: Slacker
-This AddOn provides multiple soundpacks for All The Things and changes:
+This addon provides multiple soundpacks for All The Things and changes:
 
 - Fanfare sound(s) when collecting new things;
 - Complete sound(s) when finishing a category of things;

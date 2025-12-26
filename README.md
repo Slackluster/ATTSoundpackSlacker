@@ -22,4 +22,4 @@ A proper example of how to create a soundpack now exists [here](https://github.c
 
 ## If you are experiencing issues
 - Check if the issue occurs with only this addon enabled, or if the issue is a feature you can disable from the addon's settings menu.
-- If you run into any issues or if you have other feedback, feel free to join the [Discord](https://discord.gg/FwWZZ39kPX) and ask in the `#att-soundpack-slacker` channel, or create a [ticket on GitHub](https://github.com/Slackluster/???/issues). :)
+- If you run into any issues or if you have other feedback, feel free to join the [Discord](https://discord.gg/FwWZZ39kPX) and ask in the `#att-soundpack-slacker` channel, or create a [ticket on GitHub](https://github.com/Slackluster/ATTSoundpackSlacker/issues). :)

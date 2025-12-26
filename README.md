@@ -3,7 +3,7 @@ A World of Warcraft addon. Download locations: [CurseForge](https://www.cursefor
 
 [![](https://media.forgecdn.net/attachments/1439/398/buymeacoffee-png.png)](https://www.buymeacoffee.com/Slackluster)
 
-This addon provides multiple soundpacks for All The Things and changes:
+**ATT Soundpack: Slacker** provides multiple soundpacks for All The Things and changes:
 
 - Fanfare sound(s) when collecting new things;
 - Complete sound(s) when finishing a category of things;

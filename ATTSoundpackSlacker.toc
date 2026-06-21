@@ -1,6 +1,7 @@
 ## Interface: 11508, 20505, 30405, 40402, 50503, 100207, 110207, 120007
 ## Title: ATT Soundpack: Slacker
 ## Author: Slackluster
+## Notes: A soundpack for ATT
 ## IconTexture: Interface\AddOns\AllTheThings\assets\SoundPackIcon.blp
 ## Version: @project-version@
 ## X-Curse-Project-ID: 864945

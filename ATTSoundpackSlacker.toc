@@ -1,4 +1,4 @@
-## Interface: 11509, 16000, 20506, 30405, 38002, 40402, 50504, 100207, 110207, 120100, 120105
+## Interface: 11509, 16001, 20506, 30405, 38002, 40402, 50504, 120100
 ## Title: ATT Soundpack: Slacker
 ## Author: Slackluster
 ## Notes: A soundpack for ATT
